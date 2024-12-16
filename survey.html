@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" type="text/css" href="survey.css">
+</head>
+<body>
+    <h1>INTRODUCTION TO PROGRAMMING</h1>
+    <h4>This form attempts to quantify user satisfaction with the plateform. The feel be used to improve the curriculum.</h4><br>
+    <form>
+        <fieldset>
+            <legend>PERSONAL DETAILS</legend>
+            <table>
+                <tr>
+                    <td>NAME:</td>
+                    <td>
+                        <input type="text" name="name" placeholder="Enter your full name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>EMAIL:</td>
+                    <td>
+                        <input type="email" name="email" placeholder="abc@gmail.com" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>AGE:</td>
+                    <td>
+                        <input type="number" name="age" placeholder="Enter your valid age" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>ADDRESS:</td>
+                    <td>
+                         <textarea rows="4" cols="21" placeholder="Enter your valid address" required> </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PHONE NO. :</td>
+                    <td>
+                        <input type="number" name="number" placeholder="123*******"required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset><br>
+
+        <fieldset>
+            <tr>
+                <td>What best describes your current salary:</td>
+                <td>
+                    <select>
+                        <option>Select</option>
+                        <option>Above 30k</option>
+                        <option>Below 30k</option>
+                        <option>Between 30k-80k</option>
+                    </select>
+                </td>
+            </tr>
+        </fieldset><br>
+
+        <fieldset>
+            <tr>
+                <td>What best describes your current role:</td>
+                <td>
+                    <select>
+                        <option>Select</option>
+                        <option>Student</option>
+                        <option>Working</option>
+                        <option>Employee</option>
+                    </select>
+                </td>
+            </tr>
+        </fieldset><br>
+
+        <fieldset>
+            <tr>
+                <td>Type of programming intersted in:</td><br><br>
+                <td>
+                    <input type="checkbox">FUNCTIONAL<br>
+                    <input type="checkbox">DECLARATIVE<br>
+                    <input type="checkbox">OBJECT ORIENTED<br>
+                </td>
+            </tr>
+        </fieldset><br>
+        
+        <fieldset>
+            <tr>
+                <td>Programming languages of interests:</td><br><br>
+                <td>
+                    <input type="checkbox">C++<br>
+                    <input type="checkbox">JAVA<br>
+                    <input type="checkbox">KOTLIN<br>
+                    <input type="checkbox">RUBY<br>
+                    <input type="checkbox">REACT<br>
+                    <input type="checkbox">NODE<br>
+                    <input type="checkbox">ANGULAR<br>
+                </td>
+            </tr>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>ADDITIONAL INFORMATION</legend>
+            <tr>
+                <td>
+                    <textarea rows="3" cols="40" placeholder="Do you have anything els. Please add here..."></textarea>
+                </td>
+            </tr>
+        </fieldset><br>
+
+        <tr>
+            <td>
+                <button>SUBMIT</button>
+            </td>
+        </tr>
+ </form>
+    
+</body>
+</html>
